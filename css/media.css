@@ -518,7 +518,7 @@
 	}
 	.item-billbord__left,
 	.item-billbord__image {
-    height: calc(100vh - 154px);
+    height: calc(100vh - 180px);
     min-height: 515px; 
 	}
 	.item-billbord__left {
