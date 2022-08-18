@@ -519,7 +519,7 @@
 	.item-billbord__left,
 	.item-billbord__image {
     height: calc(100vh - 154px);
-    min-height: 515px;
+    min-height: 515px; 
 	}
 	.item-billbord__left {
 		padding: 29px 40px;
