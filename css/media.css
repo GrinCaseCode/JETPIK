@@ -606,6 +606,7 @@
 	.basket .title-section {
 		padding-bottom: 15px;
 	}
+	.order,
 	.basket {
 		padding-bottom: 65px;
 	}
@@ -633,7 +634,7 @@
 	}
 	.item-order .checkbox {
 		margin-top: 10px;
-	}
+	} 
 	.bottom-form-order {
 		padding-top: 25px;
 		margin-top: 25px;
