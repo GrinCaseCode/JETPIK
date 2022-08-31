@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+	<title>Заголовок</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="format-detection" content="telephone=no" />
+	<link rel="shortcut icon" href="favicon.png" />
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid.css" />
+	<link rel="stylesheet" href="libs/fontawesome-free-5.12.0-web/css/all.min.css" />
+	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
+	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick.css" />
+	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick-theme.css" />
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/main.css?ver=1.2" />
+	<link rel="stylesheet" href="css/media.css?ver=1.2" />
+</head>
+<body> 
+  
+	<div class="wrapper">
+
+		<div class="buttons-fixed">
+			<a href="#" class="btn-fixed">
+				<img src="img/home.svg" alt="alt">
+			</a>
+			<a href="#" class="btn-fixed">
+				<img src="img/heart.svg" alt="alt">
+			</a>
+			<a href="#" class="btn-fixed">
+				<img src="img/profile.svg" alt="alt">
+			</a>
+			<a href="#" class="btn-fixed">
+				<img src="img/bag.svg" alt="alt">
+				<span class="btn-fixed__value">1</span>
+			</a>
+		</div>
+
+		<header class="header">
+			<div class="container">
+				<div class="header-top">
+					<span class='sandwich sandwich_menu'>
+						<span class='sw-topper'></span>
+						<span class='sw-bottom'></span>
+						<span class='sw-footer'></span>
+					</span>
+					<div class="logo-wrap">
+						<a href="#" class="logo">
+							<img src="img/logo.png" alt="alt">
+						</a>
+						<div class="logo-descr">официальный дистрибьютор ирригаторов Jetpik в России</div>
+					</div>
+					<div class="header-contacts">
+						<a href="#" class="btn-call"><img src="img/phone.svg" alt="alt"></a>
+						<ul class="social-list">
+							<li><a href="#" class="social-list__wp"><img src="img/wp.svg" alt="alt"></a></li>
+							<li><a href="#" class="social-list__tg"><img src="img/tg.svg" alt="alt"></a></li>
+						</ul>
+						<ul class="phones-list">
+							<li><a href="tel:+88001008021">8 (800) 100-80-21</a></li>
+							<li><a href="tel:+74993227711">+7 (499) 322-77-11</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="header-bottom">
+					<span class='sandwich sandwich_catalog'>
+						<span class='sw-topper'></span>
+						<span class='sw-bottom'></span>
+						<span class='sw-footer'></span>
+					</span>
+					<ul class="menu">
+						<li><a href="#">Ирригаторы</a></li>
+						<li><a href="#">Зубные центры</a></li>
+						<li><a href="#">Зубные щётки</a></li>
+						<li><a href="#">Аксессуары</a></li>
+					</ul>
+					<div class="buttons-header">
+						<a href="#" class="btn-header"><img src="img/search.svg" alt="alt"></a>
+						<a href="#" class="btn-header"><img src="img/heart.svg" alt="alt"></a>
+						<a href="#" class="btn-header"><img src="img/profile.svg" alt="alt"></a>
+						<a href="#" class="btn-header">
+							<img src="img/bag.svg" alt="alt">
+							<span class="btn-header__value">1</span>
+						</a>
+					</div>
+				</div>
+				<div class="form-search">
+					<input type="text" placeholder="Поиск" required="required">
+					<button class="btn-search"></button>
+				</div>
+			</div>
+			<div class="menu-mobile">
+				<ul class="menu">
+					<li><a href="#">Ирригаторы</a></li>
+					<li><a href="#">Зубные центры</a></li>
+					<li><a href="#">Зубные щётки</a></li>
+					<li><a href="#">Аксессуары</a></li>
+				</ul>
+			</div>
+		</header>
+
+		<section class="basket">
+			<div class="container">
+				<ul class="breadcrumbs">
+					<li><a href="#">Главная</a></li>
+					<li>Корзина</li>
+				</ul>
+				<h1 class="title-section">Корзина</h1>
+				<div class="table-basket">
+					<table>
+						<thead>
+							<tr>
+								<th></th>
+								<th>Товар</th>
+								<th>Цена</th>
+								<th>Количество</th>
+								<th>Всего</th>
+								<th></th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>
+									<a href="#" class="image-basket">
+										<img src="img/basket1.jpg" alt="alt">
+									</a>
+								</td>
+								<td>
+									<a href="#" class="name-basket">Зубной центр ирригатор Jetpik JP200 Ultra</a>
+								</td>
+								<td data-title="Цена">
+									<div class="price-basket">19 490 ₽</div>
+								</td>
+								<td data-title="Количество">
+									<div class="quantity">
+										<div class="quantity-button quantity-down">–</div>
+										<input type="number" min="1" step="1" value="1">
+										<div class="quantity-button quantity-up">+</div>
+									</div>
+								</td>
+								<td data-title="Всего">
+									<div class="price-total">19 490 ₽</div>
+								</td>
+								<td>
+									<div class="remove-basket"><i class="fal fa-times"></i></div>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="#" class="image-basket">
+										<img src="img/basket1.jpg" alt="alt"> 
+									</a>
+								</td>
+								<td>
+									<a href="#" class="name-basket">Зубной центр ирригатор Jetpik JP200 Ultra</a>
+								</td>
+								<td data-title="Цена"> 
+									<div class="price-basket">9 800 ₽</div>
+								</td>
+								<td data-title="Количество">
+									<div class="quantity">
+										<div class="quantity-button quantity-down">–</div>
+										<input type="number" min="1" step="1" value="1">
+										<div class="quantity-button quantity-up">+</div>
+									</div>
+								</td>
+								<td data-title="Всего">
+									<div class="price-total">9 800 ₽</div>
+								</td>
+								<td>
+									<div class="remove-basket"><i class="fal fa-times"></i></div>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<div class="bottom-basket">
+					<a href="#" class="btn-main btn-main_transparent">обновить корзину</a>
+				</div>
+				<div class="block-order">
+					<form>
+						<div class="line-form">
+							<div class="item-form item-form_page">
+								<input type="text" placeholder="Введите код купона" required="required">
+							</div>
+							<button class="btn-main btn-main_page">применить купон</button>
+						</div>
+					</form>
+					<div class="block-order__flex">
+						<div class="block-order__prices">
+							<div class="block-order__descr">Итого:</div>
+							<div class="block-order__price">29 290 ₽</div>
+						</div>
+						<a href="#" class="btn-main">оформить заказ</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+	</div>
+
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+<![endif]-->
+<script src="libs/jquery/jquery-3.6.0.min.js"></script>
+<script src="libs/jquery-mousewheel/jquery.mousewheel.min.js"></script>
+<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
+<script src="libs/slick-1.5.9/slick/slick.min.js"></script>
+<script src="libs/scroll2id/PageScroll2id.min.js"></script>
+<script src="libs/mask/jquery.maskedinput.js"></script>
+<script src="libs/jQueryFormStyler-master/jquery.formstyler.min.js"></script>
+<script src="js/common.js?ver=1.2"></script>
+<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
+<!-- Google Analytics counter --><!-- /Google Analytics counter -->
+</body>
+</html>
